@@ -4,11 +4,14 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+
+
 /* nav related style */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .text-primary {
@@ -45,4 +48,20 @@ nav a {
     font-weight: 700;
     padding: 15px 35px;
 
+}
+
+/* header section */
+.header {
+    background: #FFF8F3;
+}
+
+
+.banner{
+   padding: 30px 30px 30px 150px;
+   display: flex;
+   align-items: center;
+}
+
+.banner .profile-picture{
+    width: 500px;
 }

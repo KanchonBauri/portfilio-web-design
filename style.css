@@ -16,7 +16,7 @@ nav {
 
 .text-primary {
     color: #FD6E0A;
-    ;
+    font-style: normal;
 }
 
 .nav-tittle {
@@ -91,6 +91,11 @@ nav a {
 
 /* about section */
 
+main{
+    max-width: 1140px;
+    margin:0 auto;
+}
+
 .about {
     border-radius: 10px;
     background: #FFF8F3;
@@ -110,3 +115,19 @@ nav a {
     text-align: center;
     font-size: 18px;
 }
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
+
+}
+
+.about-info-container p{
+   font-weight: 700;
+   font-style: normal;
+}
+ 

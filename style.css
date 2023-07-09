@@ -142,5 +142,39 @@ main{
 }
 
 .skill{
+    width: 267px;
+    height: 377px;
+    flex-shrink: 0;
+
     margin: 20px;
+    gap: 24px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.aa{
+    padding: 20px;
+}
+
+.skill-title{
+    padding: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.skill-description{
+  padding: 15px;
+  align-items: center;
+   
+    
+}
+
+/* resume section */
+.resume-title{
+    text-align: center;
+    font-size: 42px;
+}
+.resume-column{
+    justify-content: center;
 }

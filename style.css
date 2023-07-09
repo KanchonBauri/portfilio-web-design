@@ -47,6 +47,7 @@ nav a {
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+    margin: 10px;
 
 }
 
@@ -175,6 +176,23 @@ main{
     text-align: center;
     font-size: 42px;
 }
-.resume-column{
-    justify-content: center;
+
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+
+.resume-column-title{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.resume-container hr{
+    margin: 30px;
+}
+
+.download-cv{
+    text-align: center;
+    padding-top: 50px;
+
 }

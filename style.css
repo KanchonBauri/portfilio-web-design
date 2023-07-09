@@ -92,9 +92,9 @@ nav a {
 
 /* about section */
 
-main{
+main {
     max-width: 1340px;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .about {
@@ -117,32 +117,33 @@ main{
     font-size: 18px;
 }
 
-.about-info-container{
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
 
-.about-info{
+.about-info {
     text-align: center;
     padding-top: 40px;
 }
 
-.info-desctription{
+.info-desctription {
     font-weight: 800;
 }
 
 /* what i do section */
-#what-is-do-description{
-    padding: 30px 150px ;
+#what-is-do-description {
+    padding: 30px 150px;
 }
 
-.skill-container{
+.skill-container {
     display: flex;
     justify-content: space-around;
     padding-top: 50px;
+    margin:0px 230px;
 }
 
-.skill{
+.skill {
     width: 267px;
     height: 377px;
     flex-shrink: 0;
@@ -154,45 +155,74 @@ main{
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 
-.aa{
+.aa {
     padding: 20px;
 }
 
-.skill-title{
+.skill-title {
     padding: 20px;
     font-weight: 700;
     margin-top: 20px;
 }
 
-.skill-description{
-  padding: 15px;
-  align-items: center;
-   
-    
+.skill-description {
+    padding: 15px;
+    align-items: center;
+
+
 }
 
 /* resume section */
-.resume-title{
+.resume-title {
     text-align: center;
     font-size: 42px;
 }
 
-.resume-container{
+.resume-container {
     display: flex;
     gap: 50px;
 }
 
-.resume-column-title{
+.resume-column-title {
     font-size: 32px;
     font-weight: 700;
 }
 
-.resume-container hr{
+.resume-container hr {
     margin: 30px;
 }
 
-.download-cv{
+.download-cv {
     text-align: center;
     padding-top: 50px;
 
 }
+
+/* footer section */
+.footer-container {
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
+    gap: 100px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.social-links{
+  margin-right: 25px;
+}
+
+.Connect input[type="text"],.Connect input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    color: #6e6c6c;
+    width: 100%;
+}
+
